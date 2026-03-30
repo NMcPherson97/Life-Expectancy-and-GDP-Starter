@@ -1,11 +1,12 @@
-The Relationship Between GDP and Life Expectancy
-🌍 Introduction
+**The Relationship Between GDP and Life Expectancy**
+
+**🌍 Introduction**
 
 Understanding the relationship between economic performance and public health is essential for evaluating global development. This analysis explores how Gross Domestic Product (GDP) relates to life expectancy across multiple countries over time.
 
 The goal of this project is to determine whether higher GDP is associated with longer life expectancy and to examine how this relationship evolves over time.
 
-📁 Data Overview
+**📁 Data Overview**
 
 The dataset contains information on:
 
@@ -15,20 +16,21 @@ Multiple countries observed over a range of years
 
 Because GDP values vary widely across countries, a logarithmic transformation was applied to better visualize patterns and relationships.
 
-🔍 Exploratory Data Analysis
+**🔍 Exploratory Data Analysis**
+
 Life Expectancy Distribution
 
 The distribution of life expectancy appears relatively normal, with most values falling within a moderate range. This suggests that while there are differences between countries, life expectancy does not vary as drastically as GDP.
 
 Boxplots by country show noticeable differences, indicating that some countries consistently achieve higher life expectancy than others.
 
-GDP Distribution
+**GDP Distribution**
 
 GDP is highly right-skewed, meaning a small number of countries have extremely large economies compared to others. After applying a logarithmic transformation, the distribution becomes more balanced and suitable for analysis.
 
 Boxplots further highlight large disparities in economic output between countries.
 
-📈 Bivariate Analysis: GDP vs Life Expectancy
+**📈 Bivariate Analysis: GDP vs Life Expectancy**
 
 The scatterplot comparing GDP and life expectancy reveals a clear positive relationship. Countries with higher GDP tend to have higher life expectancy.
 
@@ -39,7 +41,8 @@ At higher GDP levels, the relationship begins to level off
 
 This indicates diminishing returns, where additional economic growth leads to smaller improvements in life expectancy.
 
-⏳ Time Series Analysis
+**⏳ Time Series Analysis**
+
 Life Expectancy Over Time
 
 Across all countries, life expectancy shows a steady upward trend. This suggests global improvements in:
@@ -70,7 +73,8 @@ This reinforces the positive relationship between economic development and healt
 
 However, the paths differ by country, indicating that GDP is not the only factor influencing life expectancy.
 
-🧠 Key Findings
+**🧠 Key Findings**
+
 1. Positive Relationship Between GDP and Life Expectancy
 
 There is a clear positive correlation between GDP and life expectancy. Wealthier countries tend to have better health outcomes.
@@ -91,7 +95,7 @@ GDP growth varies widely across countries, highlighting differences in economic 
 
 Some countries achieve relatively high life expectancy despite lower GDP, indicating that factors such as healthcare systems, policy, and social conditions also play a critical role.
 
-✅ Conclusion
+**Conclusion**
 
 This analysis demonstrates a strong relationship between economic development and life expectancy, while also highlighting important complexities. Although higher GDP is generally associated with longer life expectancy, the benefits of economic growth are not evenly distributed and tend to diminish at higher income levels.
 
